@@ -1,6 +1,9 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: #e6eef8;
+    background-repeat: no-repeat;
+    overflow: auto;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -22,3 +25,32 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.navbar-inverse {
+    color: #fff;
+
+    background-color: #1c3f73;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #d2e0f3;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #d2e0f3;
+}
+
+.table thead > tr > th,
+.table tbody > tr > th,
+.table tfoot > tr > th,
+.table thead > tr > td,
+.table tbody > tr > td,
+.table tfoot > tr > td {
+    border-top: 1px solid #5d5d5d;
+}
+
+.jumbotron {
+    background-color: #fff;
+}
+
+
