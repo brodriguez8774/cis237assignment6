@@ -107,6 +107,7 @@ This one is okay, and it is from Microsoft:
 ## Outside Resources Used
 
 ## Known Problems, Issues, And/Or Errors in the Program
+Note: Beverage active filter requires "true" or "false." Everything else is taken as invalid input and returns all actives.
 I don't think there are any issues, probably?
 I attempted to do a single unit test. Verified a viewbag message and then /attempted/ to verify that the contact link was what I expected, but couldn't figure out how.
 
