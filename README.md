@@ -7,10 +7,15 @@ Brandon Rodriguez
 ## Description
 
 Basic .net web application to display a beverage database.
+
 Has four main pages: home, about, contact, and beverages.
+
 The first three are mostly static with minor changes to prove that I can manipulate various elements.
+
 Beverages actually displays the database, and requires user authentication to see. Attempting to go to the page without authentication will lead to a login screen.
+
 CSS modified to a kinda odd blue theme to prove that I can change that as well.
+
 Attempted one unit test. I don't /think/ I did any other extra credit?
 
 ## Program Requirements
@@ -107,8 +112,11 @@ This one is okay, and it is from Microsoft:
 ## Outside Resources Used
 
 ## Known Problems, Issues, And/Or Errors in the Program
+
 Note: Beverage active filter requires "true" or "false." Everything else is taken as invalid input and returns all actives.
+
 I don't think there are any issues, probably?
+
 I attempted to do a single unit test. Verified a viewbag message and then /attempted/ to verify that the contact link was what I expected, but couldn't figure out how.
 
 
