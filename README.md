@@ -1,10 +1,19 @@
 # Assignment 6 - Web Application to Manage Beverages
 
-## Due 12-17-2015
-
 ## Author
 
+Brandon Rodriguez
+
 ## Description
+
+Basic .net web application to display a beverage database.
+Has four main pages: home, about, contact, and beverages.
+The first three are mostly static with minor changes to prove that I can manipulate various elements.
+Beverages actually displays the database, and requires user authentication to see. Attempting to go to the page without authentication will lead to a login screen.
+CSS modified to a kinda odd blue theme to prove that I can change that as well.
+Attempted one unit test. I don't /think/ I did any other extra credit?
+
+## Program Requirements
 
 You are to create a web application using ASP.NET MVC to manage our beverage database.
 The application should have the following pages and navigation:
@@ -98,5 +107,7 @@ This one is okay, and it is from Microsoft:
 ## Outside Resources Used
 
 ## Known Problems, Issues, And/Or Errors in the Program
+I don't think there are any issues, probably?
+I attempted to do a single unit test. Verified a viewbag message and then /attempted/ to verify that the contact link was what I expected, but couldn't figure out how.
 
 

@@ -10,6 +10,7 @@ using cis237Assignment6.Models;
 
 namespace cis237Assignment6.Controllers
 {
+    [Authorize]
     public class BeverageController : Controller
     {
         private BeverageEntities db = new BeverageEntities();
